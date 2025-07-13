@@ -1,0 +1,18 @@
+https://hackaday.io/project/203508
+
+# project's name (50 characters)
+IR power switch for NucBox G5
+
+# summarize your project (140 characters)
+Add IR power switch to a mini PC to turn on it with a TV remote.
+
+# describe your project (1000 characters)
+I am going to use this tiny PC to watch netflix on my living room.
+So it would be handy if I am able to power on the PC with a TV remote.
+This project aims to achieve it without compromising compactness of the PC.
+
+# Details
+
+# Components
+
+# Logs
