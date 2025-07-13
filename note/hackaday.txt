@@ -12,6 +12,19 @@ So it would be handy if I am able to power on the PC with a TV remote.
 This project aims to achieve it without compromising compactness of the PC.
 
 # Details
+<p>In mini PCs, power switch is soldered to a board directly and I need custom solution.</p>
+
+<p>What I need to do is simple:</p>
+
+<ol>
+  <li>Find out which pin is the pin to turn on and attach a cable to it to connect to a mcu.</li>
+  <li>Find out what can be used to power mcu.</li>
+  <li>Connect IR receiver to mcu.</li>
+  <li>Program mcu to output low to power switch pin when it received particular remote control signal.</li>
+</ol>
+
+<!-- idea.jpg -->
+<figure><img src="https://cdn.hackaday.io/images/1584441752406327092.jpg" data-image="1752406327470" width="480" height="240"></figure>
 
 # Components
 
