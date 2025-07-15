@@ -29,3 +29,26 @@ This project aims to achieve it without compromising compactness of the PC.
 # Components
 
 # Logs
+## Find out pin assignments of the power switch
+<p>First of all, I need to know which pins should I short to turn on the PC.</p>
+
+<p>
+  I opened case and checked pin assignments by measuring voltage and resistance.<br>
+  Result is in the following picture:
+</p>
+
+<!-- nucbox-g5-power-pinassign.jpg -->
+<figure><img src="https://cdn.hackaday.io/images/2319321752579865126.jpg" data-image="1752579865632" width="400" height="400"></figure>
+
+<p>
+  First pin, left most one, outputs 3.3V even if system is shut down. This seems to powering LED.<br>
+  Second pin is connected to ground.<br>
+  Third is the one I need. Shorting it to ground turns on the PC.<br>
+  Forth pin controls the LED. Shorting it to ground turns on the LED.<br>
+  In the other words, outer pins are for LED, inner pins are for switch.
+</p>
+
+<p>
+  It turned out there is everything I need: power, ground and switch. Additionaly, I may be able to use LED control pin to detect whether PC is on or off.<br>
+  I don't know how much power I can draw from the 3.3V source, but it is unlikely to hurt anything if I draw a few milliamperes.
+</p>
