@@ -52,3 +52,11 @@ This project aims to achieve it without compromising compactness of the PC.
   It turned out there is everything I need: power, ground and switch. Additionaly, I may be able to use LED control pin to detect whether PC is on or off.<br>
   I don't know how much power I can draw from the 3.3V source, but it is unlikely to hurt anything if I draw a few milliamperes.
 </p>
+
+## Circuit diagram
+<p>For a mcu, I am planning to use ATtiny85, specifically <a href="https://www.adafruit.com/product/1500">Adafruit's trinket</a>.</p>
+
+<!-- irswitch-sch.png -->
+<figure><img src="https://cdn.hackaday.io/images/2219871752840469565.png" data-image="1752840469967" width="800" height="600"></figure>
+
+<p>Althogh the device has USB connector, I don't remember how to use it. I ignored the USB and flashed optiboot and using serial to communicate to the device.</p>
