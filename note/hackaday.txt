@@ -60,3 +60,11 @@ This project aims to achieve it without compromising compactness of the PC.
 <figure><img src="https://cdn.hackaday.io/images/2219871752840469565.png" data-image="1752840469967" width="800" height="600"></figure>
 
 <p>Althogh the device has USB connector, I don't remember how to use it. I ignored the USB and flashed optiboot and using serial to communicate to the device.</p>
+
+## Development on breadboard
+<p>I set up development environment on a breadboard.</p>
+
+<!-- development-breadboard.jpg -->
+<figure><img src="https://cdn.hackaday.io/images/5343221753273087328.jpg" data-image="1753273087981" width="760" height="360"></figure>
+
+<p>I'm trying to make IR library work with ATtiny85. IR library is <a href="https://elm-chan.org/fsw/irctrl/00index.html">this one by ChaN</a>.</p>
