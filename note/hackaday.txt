@@ -68,3 +68,11 @@ This project aims to achieve it without compromising compactness of the PC.
 <figure><img src="https://cdn.hackaday.io/images/5343221753273087328.jpg" data-image="1753273087981" width="760" height="360"></figure>
 
 <p>I'm trying to make IR library work with ATtiny85. IR library is <a href="https://elm-chan.org/fsw/irctrl/00index.html">this one by ChaN</a>.</p>
+
+## IR library works
+<p>After some push and pulls, I mostly understand the IR library and now it recognize TV remote signals.</p>
+
+<!-- ir-receive-demo.mp4 -->
+<div class="video-container"><iframe src="//www.youtube.com/embed/KASvLVNFLdE?loop=1&playlist=KASvLVNFLdE" width="544" height="256" frameborder="0"></iframe></div>
+
+<p>It blinks red LED upon receiving specific IR signal.</p>
