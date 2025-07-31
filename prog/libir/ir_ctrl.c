@@ -27,8 +27,6 @@
 
 /* Definitions of hardware control macros */
 #define	INIT_TMR()					/* Always: Initialize Timers, Ports */ do { \
-    PINDESC_PULLUP_DIS(PIN_IR); \
-    PINDESC_SET_INPUT(PIN_IR); \
     PRR &= ~_BV(PRTIM0); \
     GIMSK |= _BV(PCIE); \
     PCMSK |= _BV(PCINT2); \
