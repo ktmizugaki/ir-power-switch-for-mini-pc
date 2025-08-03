@@ -76,3 +76,16 @@ This project aims to achieve it without compromising compactness of the PC.
 <div class="video-container"><iframe src="//www.youtube.com/embed/KASvLVNFLdE?loop=1&playlist=KASvLVNFLdE" width="544" height="256" frameborder="0"></iframe></div>
 
 <p>It blinks red LED upon receiving specific IR signal.</p>
+
+## Add learning mode
+<p>Added code learning mode so power on code can be changed without uploading firmware.</p>
+
+<p>Add push switch between IR pin and ground, and hold it down while reset, then device enters learning mode.</p>
+
+<p>In this learning mode, device accepts IR signal twice. If the 2 signals are same, it is saved to eeprom and will be used as power on code.</p>
+
+<!-- irswitch-sch-sw.png -->
+<figure><img src="https://cdn.hackaday.io/images/5806791754202916317.png" data-image="1754202916781" width="800" height="600"></figure>
+
+<!-- development-breadboard-sw.jpg -->
+<figure><img src="https://cdn.hackaday.io/images/7686461754202928315.jpg" data-image="1754202928749" width="760" height="410"></figure>
