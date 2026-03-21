@@ -27,6 +27,11 @@ This project aims to achieve it without compromising compactness of the PC.
 <figure><img src="https://cdn.hackaday.io/images/1584441752406327092.jpg" data-image="1752406327470" width="480" height="240"></figure>
 
 # Components
+1x NucBox G5
+1x IR receiver module
+1x ATtiny85 module (Adafruit trinket)
+1x tactile switch
+1x 1.27mm pitch Universal prototype board
 
 # Logs
 ## Find out pin assignments of the power switch
