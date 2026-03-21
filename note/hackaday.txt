@@ -94,3 +94,40 @@ This project aims to achieve it without compromising compactness of the PC.
 
 <!-- development-breadboard-sw.jpg -->
 <figure><img src="https://cdn.hackaday.io/images/7686461754202928315.jpg" data-image="1754202928749" width="760" height="410"></figure>
+
+## Created connector
+<p>I made a connector using a universal prototype board with a 1.27mm pitch. I checked quickly and confirmed it is making contact with the switch pins.</p>
+
+<!-- switch-connection.jpg -->
+<figure><img src="https://cdn.hackaday.io/images/5154091774084134262.jpg" data-image="1774084134757" width="320" height="200"><figcaption>Connector connected to the switch</figcaption></figure>
+
+<!-- connector-front.jpg -->
+<figure><img src="https://cdn.hackaday.io/images/7949251774083201325.jpg" data-image="1774083201839" width="280" height="160"><figcaption>The front side of the connector</figcaption></figure>
+
+<!-- connector-back.jpg -->
+<figure><img src="https://cdn.hackaday.io/images/2494801774083231429.jpg" data-image="1774083231938" width="280" height="160"><figcaption>The back side of the connector, where it makes contact with the switch pins.</figcaption></figure>
+
+<!-- universal-prototype-board.jpg -->
+<figure><img src="https://cdn.hackaday.io/images/7367001774083189307.jpg" data-image="1774083189879" width="364" height="160"><figcaption>1.27mm pitch Universal prototype board</figcaption></figure>
+
+<p>
+  The following cross-sectional diagram shows how I attempted to connect the wires to the switch.<br>
+  I wrapped the connector in polyimide tape to prevent it from short-circuiting with the switch case's feet.
+</p>
+
+<!-- switch-connection-diagram.png -->
+<figure>
+  <img src="https://cdn.hackaday.io/images/6633011774088957379.png" data-image="1774088957678" width="350" height="140">
+  <figcaption>
+    <ol>
+      <li>Platform of the cpu fan</li>
+      <li>Wedge to secure the connector</li>
+      <li>Cable</li>
+      <li>Solder to attach wire to universal prototype board</li>
+      <li>Universal prototype board</li>
+      <li>Leg of the power switch's case</li>
+      <li>Pin of the power switch</li>
+      <li>Mother board of the PC</li>
+    </ol>
+  </figcaption>
+</figure>
