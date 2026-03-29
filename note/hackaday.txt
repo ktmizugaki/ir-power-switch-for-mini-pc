@@ -131,3 +131,23 @@ This project aims to achieve it without compromising compactness of the PC.
     </ol>
   </figcaption>
 </figure>
+
+## Built up
+
+<p>
+  I wired up the attiny85 and the IR receiver.<br>
+  Now it's time to power on the PC with a TV remote!
+</p>
+
+<!-- wiring-inner.jpg -->
+<figure><img src="https://cdn.hackaday.io/images/5797571774784916584.jpg" data-image="1774784917108" width="330" height="330"></figure>
+
+<!-- wiring-outer.jpg -->
+<figure><img src="https://cdn.hackaday.io/images/2450991774784880882.jpg" data-image="1774784881512" width="433" height="330"></figure>
+
+<p>And of course it does not work...</p>
+
+<p>
+  This is because the Vcc voltage was too low. When I measured it, it was about 1.9V.<br>
+  Perhaps I should have tested if the power pin was actualy usable before building up it.
+</p>
