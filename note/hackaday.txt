@@ -32,6 +32,7 @@ This project aims to achieve it without compromising compactness of the PC.
 1x ATtiny85 module (Adafruit trinket)
 1x tactile switch
 1x 1.27mm pitch Universal prototype board
+1x Junk USB male connector
 
 # Logs
 ## Find out pin assignments of the power switch
@@ -151,3 +152,12 @@ This project aims to achieve it without compromising compactness of the PC.
   This is because the Vcc voltage was too low. When I measured it, it was about 1.9V.<br>
   Perhaps I should have tested if the power pin was actualy usable before building up it.
 </p>
+
+## Changed to USB
+<p>After changing power source to USB, it worked.</p>
+
+<!-- g5-ir-power-on.mp4 -->
+<div class="video-container"><iframe src="//www.youtube.com/embed/_Ipn0_J2a9g?loop=1&playlist=_Ipn0_J2a9g" width="480" height="360" frameborder="0" allowfullscreen=""></iframe></div>
+
+<!-- junk-usb-plug.jpg -->
+<figure><img src="https://cdn.hackaday.io/images/8595131775472948231.jpg" data-image="1775472948752" width="640" height="360"><figcaption>I used junk USB plug which sit in parts box for years.</figcaption></figure>
