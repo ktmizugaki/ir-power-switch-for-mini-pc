@@ -26,6 +26,16 @@ This project aims to achieve it without compromising compactness of the PC.
 <!-- idea.jpg -->
 <figure><img src="https://cdn.hackaday.io/images/1584441752406327092.jpg" data-image="1752406327470" width="480" height="240"></figure>
 
+<p>Another option is to use Wake on Lan, but it would require a larger device.</p>
+
+<p>It finally looks like below photo. At first I was thinking to place everything inside top cover, but I took easy route.</p>
+
+<!-- g5-ir-switch.jpg -->
+<figure><img src="https://cdn.hackaday.io/images/5305121775472711653.jpg" data-image="1775507054470" width="480" height="345"></figure>
+
+<!-- g5-ir-power-on.mp4 -->
+<div class="video-container"><iframe src="//www.youtube.com/embed/_Ipn0_J2a9g?loop=1&playlist=_Ipn0_J2a9g" width="640" height="480" frameborder="0" allowfullscreen=""></iframe></div>
+
 # Components
 1x NucBox G5
 1x IR receiver module
