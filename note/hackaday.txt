@@ -28,6 +28,11 @@ This project aims to achieve it without compromising compactness of the PC.
 
 <p>Another option is to use Wake on Lan, but it would require a larger device.</p>
 
+<p>Anyway, to attach a cable to power switch pins, I created a custom connector and forcibly insert it into the gap between PCB and fan platform. See project log <a href="/project/203508/log/246836">"Created connector"</a> for the detail.</p>
+
+<!-- switch-connection.jpg -->
+<figure><img src="https://cdn.hackaday.io/images/5154091774084134262.jpg" data-image="1774084134757" width="320" height="200"></figure>
+
 <p>It finally looks like below photo. At first I was thinking to place everything inside top cover, but I took easy route.</p>
 
 <!-- g5-ir-switch.jpg -->
